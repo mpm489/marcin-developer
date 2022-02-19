@@ -1,0 +1,30 @@
+<div class="bgGray" id="about">
+    
+    <div class="d-flex">
+
+        <div class="childe"> <img class="bild-1" src="assets/img/ich1.png">
+        </div>
+
+        <div class="childe">
+            <h2>About me.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Perspiciatis voluptates
+                adipisci numquam sapiente repellendus iste
+                rerum omnis accusantium aperiam et cum aliquam
+                consequatur sint id optio placeat possimus,
+                iusto ducimus?</p>
+        </div>
+
+    </div>
+
+    <div class="about-childes">
+
+        <div class="about-child" *ngFor="let i of[0,1,2,3,]">
+            <div class="bg-icons"><img src="assets/img/{{aboutImg[i]}}"></div>
+            <h3>{{myJorney[i]}}</h3>
+            <span style="text-align: center;">{{aboutText[i]}}</span>
+        </div>
+
+    </div>
+
+</div>

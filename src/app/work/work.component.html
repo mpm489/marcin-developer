@@ -1,0 +1,24 @@
+<div class="bgBlack" id="work">
+    <h2>My work</h2>
+    <div>
+        <button class="button-1"> All </button>
+        <button class="button-1"> Angular </button>
+        <button class="button-1"> Java Script </button>
+    </div>
+    <div class="bilder">
+
+        <div class="bild" *ngFor = "let i of [0,1,2,3,]">
+            <div class="only-show-on-hover">
+                <h3>{{h3Schrift[i]}}</h3>
+                <p>
+                    {{pSchrift[i]}}                  
+                </p>
+                <a href="http://marcin-developer.de/index.html" target="_blanc">
+                    Let's Go!
+                </a>
+            </div>
+            <img src="./assets/img/{{workImg[i]}}">
+        </div>  
+    </div>
+
+</div>

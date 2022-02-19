@@ -1,0 +1,76 @@
+.bgBlack{
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+    color: white; 
+    
+   
+   
+   
+}
+
+.bild{
+    width: 250px;
+    height: 270px;
+    object-fit: cover;
+    border-radius:50%;
+   
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px;
+    padding-top: 210px;
+    
+    
+    
+
+    h1{
+        font-size: 54px;
+    }
+}
+
+.button{
+    color: #2dfcd8;
+    font-size: 18px;
+    border: 1px solid #2DFCD8;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    background-color: black;
+    &:hover{
+        background-color: #2DFCD8;
+        color: white;
+        font-weight: bold;        
+    }
+}
+
+.red{
+    color: #FA2759;
+}
+
+.green{
+    color:#2DFCD8;
+}
+
+.down{
+    
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    img{
+        height: 40px;
+        width: 40px;
+        &:hover{
+            transform: scale(1.4);
+     
+         }
+   
+   
+   }
+      
+}
+   
+   
+   

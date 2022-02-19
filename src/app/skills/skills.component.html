@@ -1,0 +1,15 @@
+<div class="bgGray" id="skills">
+    <h2>MY Skills</h2>     
+    <div class="skills-container">        
+
+        <div class="skills-box" *ngFor= "let i of [0,1,2,3,4,5,6,7,8,]">
+            <div class="skills-bg">
+                <img class="skils-img" src="assets/img/{{skillsImg[i]}}">
+            </div>           
+           <span>{{skillsText[i]}}</span>
+        </div>
+
+        
+    </div>
+
+</div>

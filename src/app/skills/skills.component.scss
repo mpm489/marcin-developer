@@ -1,0 +1,57 @@
+.bgGray{
+   
+    height: 100vh;
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+
+}
+
+
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    max-width: 600px; 
+}
+
+.skills-box{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    margin: 50px 20px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+   
+}
+
+.skills-bg{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius:50%; 
+    box-shadow: -0 0 2px gray;
+    border: 2px solid #b6a4a04d;
+}
+
+.skils-img{
+    height: 40px;
+    width: 40px;
+}

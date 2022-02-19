@@ -1,0 +1,77 @@
+.bgBlack{
+height: 100vh;
+background-color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-left: 120px;
+padding-right: 120px;
+padding-bottom: 50px;
+h1{
+    
+    color: #2dfcd8;
+    font-size: 64px;
+
+}
+p{
+    color: #989898;
+    margin-bottom: 40px;
+    text-align: center;
+    b{
+        color: rgb(77, 209, 169);
+    }  
+}
+}
+
+.felder{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.name{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.input{
+    color: #fff;
+    background-color: #1a1a1a;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 530px;
+}
+
+.textarea{
+    color: #fff;
+    background-color: #1a1a1a;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 530px;
+    font-family: "Open Sans",sans-serif;
+    height: 155px;
+}
+
+.send{
+    background-color: #000;
+    border: 1px solid #2DFCD8;
+    color: #2dfcd8;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    
+
+    &:hover{
+        background-color: #2dfcd8;
+        color: white;
+        font-weight: bold;
+    }
+}

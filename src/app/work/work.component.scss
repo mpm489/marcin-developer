@@ -1,0 +1,96 @@
+.bgBlack{
+   
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+h2{
+    font-size: 36px;    
+}   
+}
+
+.button-1{
+    min-width: 100px;
+    min-height: 50px;
+    margin: 8px;
+    color: white;
+    background-color: #000;
+    border: 2px solid #FA2759;
+    cursor: pointer;
+    &:hover{
+        background-color:#FA2759;
+    }
+    
+}
+
+.bilder{
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.bild{
+    height: 250px;
+    width: 320px;   
+    margin: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 1px solid #d73444;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    img{        
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;       
+    }
+    .only-show-on-hover {
+        visibility: hidden;
+    }
+    &:hover .only-show-on-hover {
+        visibility: visible;
+    }
+   
+}
+
+.only-show-on-hover{ 
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+
+    h3{color: #FA2759;        
+    }
+    a{   
+        padding: 10px;
+        color:#FA2759;
+        font-weight: bolder;
+        text-decoration: none;
+
+        &:hover{
+            color:white ;
+        background-color:#FA2759;
+        }
+    }
+    
+}
+
+
+
+
+
+
