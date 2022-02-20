@@ -25,9 +25,9 @@ export class WorkComponent implements OnInit {
   ];
 
   aLinks = [
-    "Let's Go!",
-    "Let's Go!",
-    "Let's Go!",
+    "modul-11/index.html",
+    "modul-9/index.html",
+    "Quizapp%20Blue/index.html",
     "Let's Go!"
   ];
 
